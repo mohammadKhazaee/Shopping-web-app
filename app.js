@@ -18,7 +18,8 @@ const User = require("./models/user");
 
 const PORT = process.env.PORT;
 const LIARA_URL = process.env.LIARA_URL || "http://localhost:" + PORT;
-const DATABASE_URI = process.env.DATABASE_URI;
+const DATABASE_URI =
+	process.env.DATABASE_URI || "mongodb://localhost:27017/shoppingApp";
 
 const app = express();
 const store = new MongoDBStore({

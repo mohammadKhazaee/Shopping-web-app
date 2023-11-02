@@ -21,7 +21,7 @@ $ git clone https://github.com/mohammadKhazaee/Shopping-web-app.git
 #### `Step 2` - cd in the repo
 
 ```bash
-$ cd Shopping-web-appcd SirVana
+$ cd Shopping-web-app
 ```
 
 #### `Step 3` - install dependencies
@@ -44,10 +44,6 @@ $ code .env
 ```
 
 #### `Step 5` - run application
-
-```bash
-$ npm start
-```
 
 In browser, open [http://localhost:3000](http://localhost:3000)
 
